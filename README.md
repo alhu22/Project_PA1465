@@ -6,4 +6,4 @@ This project tests whether Python's `pickle` module produces identical byte stre
 
 ```bash
 pip install -r requirements.txt
-pytest
+PYTHONPATH=. pytest -v
