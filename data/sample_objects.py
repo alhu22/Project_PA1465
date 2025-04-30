@@ -1,6 +1,4 @@
-# sample_objects.py
 
-# A set of objects to test for pickle determinism
 sample_objects = {
     "integer": 42,
     "float": 3.1415,
@@ -10,3 +8,4 @@ sample_objects = {
     "tuple": (1, 2, 3),
     "nested": {"x": [1, {"y": (2, 3)}]},
 }
+
